@@ -109,7 +109,7 @@
 <body>
     <h1>MUST or MUSTN'T: Match & Learn</h1>
     
-    <div class="timer" id="timer">Tiempo: 00:00</div>
+    <div class="timer" id="timer">Time: 00:00</div>
     
     <div class="exercise-container">
         <h2>Task 1: Complete each sentence with MUST or MUSTN'T. Then, match the sentences with the pictures.</h2>
@@ -453,7 +453,7 @@
             const elapsedTime = Math.floor((currentTime - startTime) / 1000);
             const minutes = Math.floor(elapsedTime / 60).toString().padStart(2, '0');
             const seconds = (elapsedTime % 60).toString().padStart(2, '0');
-            document.getElementById('timer').textContent = `Tiempo: ${minutes}:${seconds}`;
+            document.getElementById('timer').textContent = `Time: ${minutes}:${seconds}`;
         }
         
         // Iniciar el cronómetro
